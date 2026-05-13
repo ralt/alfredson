@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alfredson</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Bienvenue</string>
+    <string name="onboarding_intro">Un protocole de 12 semaines pour la tendinopathie d\'Achille. Exercices excentriques deux fois par jour. Renseignez vos informations pour commencer.</string>
+    <string name="start_date">Date de début</string>
+    <string name="start_date_value">Commencé le %1$s</string>
+    <string name="start_date_warning">Modifier la date de début décalera la semaine et le jour en cours.</string>
+    <string name="body_weight_kg">Poids du corps (kg)</string>
+    <string name="language">Langue</string>
+    <string name="language_system">Système</string>
+    <string name="language_french">Français</string>
+    <string name="language_english">English</string>
+    <string name="heel_drop_variant">Variante d\'exercice</string>
+    <string name="heel_drop_both">Les deux (jambe tendue + fléchie)</string>
+    <string name="heel_drop_straight_only">Jambe tendue uniquement</string>
+    <string name="start">Commencer le protocole</string>
+
+    <!-- Today -->
+    <string name="week_day_header">Semaine %1$d, Jour %2$d</string>
+    <string name="todays_exercise">Exercice du jour</string>
+    <string name="label_support">Appui</string>
+    <string name="label_speed">Vitesse</string>
+    <string name="label_extra_load">Charge additionnelle</string>
+    <string name="label_plyometric">Pliométrie</string>
+    <string name="support_bipodal">Appui bipodal</string>
+    <string name="support_bipodal_opposite">Bipodal, lest côté sain</string>
+    <string name="support_unipodal">Appui unipodal (côté blessé)</string>
+    <string name="speed_slow">Vitesse lente</string>
+    <string name="speed_medium">Vitesse moyenne</string>
+    <string name="speed_fast">Vitesse rapide</string>
+    <string name="plyo_pogo_bilateral">Sauts pogo (bipodal)</string>
+    <string name="plyo_single_leg_hop">Sauts unipodaux</string>
+    <string name="prescription_title">Prescription</string>
+    <string name="prescription_sets">3 séries × 15 répétitions</string>
+    <string name="prescription_straight_knee">• Jambe tendue (gastrocnémien)</string>
+    <string name="prescription_bent_knee">• Jambe fléchie (soléaire)</string>
+    <string name="prescription_twice_daily">À effectuer deux fois par jour, tous les jours.</string>
+    <string name="todays_sessions">Séances du jour</string>
+    <string name="morning">Matin</string>
+    <string name="evening">Soir</string>
+    <string name="not_started_yet">Le protocole commence le %1$s.</string>
+    <string name="protocol_complete">Protocole terminé !</string>
+    <string name="schedule_error">Erreur de planning.</string>
+    <string name="no_start_date">Aucune date de début. Ouvrez les réglages pour configurer.</string>
+
+    <!-- Calendar -->
+    <string name="calendar">Calendrier</string>
+    <string name="streak">Série actuelle : %1$d jours</string>
+    <string name="week_short">S%1$d</string>
+
+    <!-- Settings -->
+    <string name="settings">Réglages</string>
+    <string name="save">Enregistrer</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="not_set">Non défini</string>
+    <string name="reminders">Rappels</string>
+    <string name="reminders_enable">Activer les rappels quotidiens</string>
+    <string name="reset_progress">Réinitialiser la progression</string>
+    <string name="reset_progress_confirm">Ceci effacera toutes les séances cochées et vos données d\'inscription. Êtes-vous sûr ?</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Rappels quotidiens</string>
+    <string name="notification_channel_description">Rappels des séances du matin et du soir</string>
+    <string name="notification_morning_title">Séance Alfredson du matin</string>
+    <string name="notification_evening_title">Séance Alfredson du soir</string>
+    <string name="notification_body">C\'est l\'heure de vos exercices excentriques.</string>
+</resources>

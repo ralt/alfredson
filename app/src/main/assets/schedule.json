@@ -1,0 +1,148 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        { "support": "BIPODAL", "speed": "SLOW" },
+        { "support": "BIPODAL", "speed": "SLOW" },
+        { "support": "BIPODAL", "speed": "SLOW" },
+        { "support": "BIPODAL", "speed": "MEDIUM" },
+        { "support": "BIPODAL", "speed": "MEDIUM" },
+        { "support": "BIPODAL", "speed": "FAST" },
+        { "support": "BIPODAL", "speed": "FAST" }
+      ]
+    },
+    {
+      "week": 2,
+      "days": [
+        { "support": "BIPODAL_OPPOSITE_BIAS", "speed": "SLOW" },
+        { "support": "BIPODAL_OPPOSITE_BIAS", "speed": "SLOW" },
+        { "support": "BIPODAL_OPPOSITE_BIAS", "speed": "SLOW" },
+        { "support": "BIPODAL_OPPOSITE_BIAS", "speed": "MEDIUM" },
+        { "support": "BIPODAL_OPPOSITE_BIAS", "speed": "MEDIUM" },
+        { "support": "BIPODAL_OPPOSITE_BIAS", "speed": "FAST" },
+        { "support": "BIPODAL_OPPOSITE_BIAS", "speed": "FAST" }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW" },
+        { "support": "UNIPODAL", "speed": "SLOW" },
+        { "support": "UNIPODAL", "speed": "SLOW" },
+        { "support": "UNIPODAL", "speed": "MEDIUM" },
+        { "support": "UNIPODAL", "speed": "MEDIUM" },
+        { "support": "UNIPODAL", "speed": "FAST" },
+        { "support": "UNIPODAL", "speed": "FAST" }
+      ]
+    },
+    {
+      "week": 4,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 10 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 10 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 10 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 10 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 10 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 10 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 10 }
+      ]
+    },
+    {
+      "week": 5,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    },
+    {
+      "week": 6,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    },
+    {
+      "week": 7,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    },
+    {
+      "week": 8,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    },
+    {
+      "week": 9,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    },
+    {
+      "week": 10,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20, "plyometric": "POGO_BILATERAL" },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20, "plyometric": "POGO_BILATERAL" },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20, "plyometric": "POGO_BILATERAL" },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    },
+    {
+      "week": 11,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20, "plyometric": "SINGLE_LEG_HOP" },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20, "plyometric": "SINGLE_LEG_HOP" },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20, "plyometric": "SINGLE_LEG_HOP" },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    },
+    {
+      "week": 12,
+      "days": [
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20, "plyometric": "SINGLE_LEG_HOP" },
+        { "support": "UNIPODAL", "speed": "SLOW", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20, "plyometric": "SINGLE_LEG_HOP" },
+        { "support": "UNIPODAL", "speed": "MEDIUM", "extraLoadPctBodyWeight": 20 },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20, "plyometric": "SINGLE_LEG_HOP" },
+        { "support": "UNIPODAL", "speed": "FAST", "extraLoadPctBodyWeight": 20 }
+      ]
+    }
+  ]
+}
