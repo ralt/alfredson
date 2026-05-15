@@ -27,13 +27,21 @@ class ReminderWorker(
     override suspend fun doWork(): Result {
         val app = applicationContext as AlfredsonApp
         val prefs = app.userPrefs.flow.first()
-        val slot = prefs.startDate?.let { sd ->
+        val status = prefs.startDate?.let { sd ->
             protocolStatus(sd, LocalDate.now(), app.scheduleProvider.schedule().totalDays)
         }
         val period = inputData.getString(KEY_PERIOD) ?: PERIOD_MORNING
 
-        if (prefs.remindersEnabled && slot?.state == ProtocolState.IN_PROGRESS) {
-            postNotification(applicationContext, period)
+        if (prefs.remindersEnabled && status?.state == ProtocolState.IN_PROGRESS) {
+            val entry = status.slot?.let { app.sessionLog.flow.first().entryFor(it.absoluteDayIndex) }
+            val alreadyDone = when (period) {
+                PERIOD_MORNING -> entry?.morning == true
+                PERIOD_EVENING -> entry?.evening == true
+                else -> false
+            }
+            if (!alreadyDone) {
+                postNotification(applicationContext, period)
+            }
         }
 
         // Always re-enqueue tomorrow's reminder for this period so the chain continues.
